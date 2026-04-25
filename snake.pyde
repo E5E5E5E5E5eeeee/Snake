@@ -29,7 +29,7 @@ def draw():
     
 
     if snake[-1][0] == pastille[0] and snake[-1][1] == pastille[1]:
-        score += 5
+        score += 1
 
         snake.insert(0, list(snake[0])) 
         generer_pastille()
@@ -37,7 +37,7 @@ def draw():
     collision(snake, TAILLE)
     
     # On appelle l'affichage en lui donnant le score
-    affichage(snake, pastille, TAILLE)
+    affichage(snake, pastille, TAILLE, score)
 
 def keyPressed():
     global dx, dy
