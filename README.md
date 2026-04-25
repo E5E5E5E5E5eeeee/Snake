@@ -14,7 +14,7 @@ Ce jeu a été conçu avec l'environnement **Processing**. Pour y jouer :
    - Cliquez sur le menu en haut à droite (par défaut "Java").
    - Sélectionnez "Add Mode..." et installez **Python Mode**.
 3. **Lancez le jeu** :
-   - Téléchargez ce dépôt GitHub.
+   - Téléchargez les fichiers `snake.pyde` et `fonction.py`.
    - Ouvrez le fichier `Snake.pyde` avec Processing.
    - Appuyez sur le bouton **Exécuter** (la flèche "Play").
 
