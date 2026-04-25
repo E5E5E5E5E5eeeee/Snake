@@ -1,9 +1,6 @@
-def affichage(snake, pastille, TAILLE):
+def affichage(snake, pastille, TAILLE, score):
     fill(50,250,150)
-    score = 0
-    if snake[-1] == pastille:
-        score.append(5)
-    textSize(TAILLE + 5)
+    textSize(TAILLE + 1)
     text("Score = {}".format(score), 20 , 20)
     for c in snake[:-1]:
         rect(c[0],c[1],TAILLE,TAILLE)
