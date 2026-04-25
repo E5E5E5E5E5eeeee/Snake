@@ -3,7 +3,7 @@
 Jeu de Snake classique développé dans le cadre de ma dèrnière année de lycée. 
 
 ## 🎮 Aperçu
-![Capture d'écran du jeu](screenshots/gameplay.png) ## 🛠️ Installation et Utilisation
+![Capture d'écran du jeu](screenshots/gameplay.png) 
 
 Ce jeu a été conçu avec l'environnement **Processing**. Pour y jouer :
 
